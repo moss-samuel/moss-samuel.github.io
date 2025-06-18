@@ -1,4 +1,4 @@
-# moss-samuel.github.io
+*# moss-samuel.github.io
 @charset "UTF-8";
 /*!
 * Start Bootstrap - Freelancer v7.0.7 (https://startbootstrap.com/theme/freelancer)
