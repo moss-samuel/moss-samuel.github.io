@@ -24,13 +24,13 @@
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="/resume">RESUME</a>
                         </li> 
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="/index/#about">ABOUT</a>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="/#about">ABOUT</a>
                         </li> 
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="/index/#portfolio">PORTFOLIO</a>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="/#portfolio">PORTFOLIO</a>
                         </li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="/index/#publications">PUBLICATIONS</a>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="/#publications">PUBLICATIONS</a>
                         </li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="/index/#contact">CONTACT</a>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="/#contact">CONTACT</a>
                         </li>
                     </ul>
                 </div>
@@ -53,7 +53,44 @@
 
     <button type="submit">Send</button>
 </form>
-        
+<style>
+    form {
+        display: flex;
+        flex-direction: column;
+        max-width: 400px;
+        margin: auto;
+    }
+
+    label {
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: column; /* Ensures the label text and input are stacked */
+    }
+
+    input,
+    textarea {
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        margin-bottom: 15px;
+        width: 100%; /* Makes the input and textarea take the full width of the container */
+        box-sizing: border-box; /* Ensures padding is included in the total width */
+    }
+
+    button {
+        background-color: #007BFF;
+        color: white;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-bottom: 40px;
+    }
+
+    button:hover {
+        background-color: #0056b3;
+    }
+</style>
         </section>
         <footer class="footer text-center">
             <div class="container">
